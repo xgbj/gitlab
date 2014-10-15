@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <include file="struts-default.xml"/>
+	<package name="web" extends="struts-default"> 
+	<action name="Action" class="web.Action">
+	<result>/hello</result>
+	</action>
+	<action name="detail" class="web.detail">
+	<result>/detail.
+	<result name="success">/index.jsp</result>
+	<result name="not">/addAuthor.jsp</result>
+	<result name="exist">/ISBNexist.jsp</result>
+	</action>
+	<action name="addAuthor" class="web.addAuthor">
+	<result>/index.jsp</result>
+	</action>
+	</package>
+</struts>    
