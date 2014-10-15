@@ -9,7 +9,7 @@ import java.util.*;
 import javax.servlet.http.HttpServletRequest;
 import web.Book;
 import org.apache.struts2.ServletActionContext;
-
+//wangjiawei
 public class add extends ActionSupport{
 	    private  String ISBN;
 	    private  String Titl;
